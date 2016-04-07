@@ -13,8 +13,8 @@ import sys
 if(len(sys.argv) < 4):
   print("Usage:\n$ python " + sys.argv[0] + " base-model.prototxt N K\n")
   print("Where:\n - base-model is the prototxt with special TAGS")
-  print(" - N is the number of outputs")
-  print(" - K is the number of subset expert networks to replicate formt he base model")
+  print(" - N is the number of class outputs")
+  print(" - K is the number of subset expert networks to replicate from the base model")
   exit()
 
 base_model_definition = sys.argv[1]
