@@ -1,5 +1,8 @@
 # MixDCNN
 
+## Introduction
+This Git contains trained models of MixDCNN for three fine-grained datasets, CUB200-2011 (http://www.vision.caltech.edu/visipedia/CUB-200-2011.html), Birdsnap (http://birdsnap.com/) and CLEF-FLower (http://www.imageclef.org/datasets). Training and testing split files are provided for all three datasets. 
+
 This repository maintains links to MixDCNN caffe models used in the following paper:
 
     @inproceedings{GeWACV2016,
@@ -18,8 +21,6 @@ The caffemodel weights for the best performing models can be downloaded from the
 0. [MixDCNN-4xGoogleNet for CLEF-Flower](https://cloudstor.aarnet.edu.au/plus/index.php/s/uVftj1Xg12h0AgY/download)
 0. [MixDCNN-4xGoogleNet for CUB2011](https://cloudstor.aarnet.edu.au/plus/index.php/s/zuSOuC7ZiZy3yTn/download)
 
-## Introduction
-This Git contains trained models of MixDCNN for three fine-grained datasets, CUB200-2011 (http://www.vision.caltech.edu/visipedia/CUB-200-2011.html), Birdsnap (http://birdsnap.com/) and CLEF-FLower (http://www.imageclef.org/datasets). Training and testing split files are provided for all three datasets. 
 
 ### Disclaimer 
 0. While make LMDB for training and testing set, make sure resize then to 227 by 227 to match the trained parameters.
