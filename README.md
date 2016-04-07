@@ -25,4 +25,7 @@ The caffemodel weights for the best performing models can be downloaded from the
 ### Disclaimer 
 0. While make LMDB for training and testing set, make sure resize then to 227 by 227 to match the trained parameters.
 0. We have tested the model parameters with the recent Caffe (2016-01-30 2ef5847), you are welcomed to use the old Caffe version we provided (which is the version we trained our models on).  
-0. To re-train or fine-tuning the models with our prototxt files, you need a decent GPU with 12GB memory (K40, K80, Titan X).
+0. To re-train or fine-tuning the models with our prototxt files, you need a decent GPU with 12GB memory (K40,K80,Titan X).
+
+### Result
+https://github.com/zongyuange/MixDCNN/blob/master/result.png
