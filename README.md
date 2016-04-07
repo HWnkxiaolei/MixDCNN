@@ -14,6 +14,6 @@ This repository maintains links to caffe models used in the following paper:
 
 The caffemodel weights for the best performing models can be downloaded from the links below:
 
-0. [MixDCNN-6xGoogleNet for BirdSnap](https://cloudstor.aarnet.edu.au/plus/index.php/s/GBU2lheAlUY8bCm)
-0. [MixDCNN-4xGoogleNet for CLEF-Flower](https://cloudstor.aarnet.edu.au/plus/index.php/s/uVftj1Xg12h0AgY)
-0. [MixDCNN-4xGoogleNet for CUB2011](https://cloudstor.aarnet.edu.au/plus/index.php/s/zuSOuC7ZiZy3yTn)
+0. [MixDCNN-6xGoogleNet for BirdSnap](https://cloudstor.aarnet.edu.au/plus/index.php/s/GBU2lheAlUY8bCm/download)
+0. [MixDCNN-4xGoogleNet for CLEF-Flower](https://cloudstor.aarnet.edu.au/plus/index.php/s/uVftj1Xg12h0AgY/download)
+0. [MixDCNN-4xGoogleNet for CUB2011](https://cloudstor.aarnet.edu.au/plus/index.php/s/zuSOuC7ZiZy3yTn/download)
