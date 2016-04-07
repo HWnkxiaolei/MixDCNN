@@ -28,4 +28,4 @@ The caffemodel weights for the best performing models can be downloaded from the
 0. To re-train or fine-tuning the models with our prototxt files, you need a decent GPU with 12GB memory (K40,K80,Titan X).
 
 ### Result
-https://github.com/zongyuange/MixDCNN/blob/master/result.png
+![Result Table] https://github.com/zongyuange/MixDCNN/blob/master/result.png
