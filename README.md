@@ -30,4 +30,6 @@ The caffemodel weights for the best performing models can be downloaded from the
 ### Result
 ![Result Table] https://github.com/zongyuange/MixDCNN/blob/master/result.png
 
-### For more interesting works, please visit www.zongyuange.com for details.
+### More interesting works
+Please visit www.zongyuange.com for details.
+or dynamicdetection.com if you are interested in tracking.
