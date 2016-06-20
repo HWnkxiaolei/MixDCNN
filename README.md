@@ -32,4 +32,4 @@ The caffemodel weights for the best performing models can be downloaded from the
 
 ### More interesting works
 Please visit www.zongyuange.com for details.
-or dynamicdetection.com if you are interested in tracking.
+or www.dynamicdetection.com if you are interested in tracking.
