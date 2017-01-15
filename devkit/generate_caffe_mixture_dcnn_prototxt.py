@@ -30,14 +30,14 @@ for s in range(num_experts):
     print(" ")
 
 for s in range(num_experts):
-  print("layers {\n  type:SPLICE\n  name:\"slice-fc8-se%d\"\n  bottom:\"fc8-se%d\""%(s+1,s+1))
+  print("layers {\n  type:SLICE\n  name:\"slice-fc8-se%d\"\n  bottom:\"fc8-se%d\""%(s+1,s+1))
   for i in range(num_outputs):
-    print("  top: \"splice%d-%d\""%(s+1,i+1))
+    print("  top: \"slice%d-%d\""%(s+1,i+1))
   print("}")
   
   print("layers {\n  type:ELTWISE\n  name:\"max-fc8-se%d\"\n  top:\"max-fc8-se%d\""%(s+1,s+1))
   for i in range(num_outputs):
-    print("  bottom: \"splice%d-%d\""%(s+1,i+1))
+    print("  bottom: \"slice%d-%d\""%(s+1,i+1))
   print("  eltwise_param{\n    operation:MAX\n  }\n}")
 
 
@@ -98,39 +98,3 @@ print("layers {\n" + \
 "  bottom: \"prob\"\n" + \
 "  bottom: \"label\"\n" + \
 "  top: \"accuracy\"\n  include: { phase: TEST }\n}")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
