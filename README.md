@@ -31,5 +31,5 @@ The caffemodel weights for the best performing models can be downloaded from the
 ![Result Table] https://github.com/zongyuange/MixDCNN/blob/master/result.png
 
 ### More interesting works
-Please visit www.zongyuange.com for details,
-or www.dynamicdetection.com if you are interested in tracking.
+Please visit https://sites.google.com/view/zongyuange/home for details,
+or visit http://arma.sourceforge.net/vb100/ if you are interested in bird video dataset.
